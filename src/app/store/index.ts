@@ -12,11 +12,9 @@ import {
 import storage from 'redux-persist/lib/storage'; 
 import persistReducer from 'redux-persist/es/persistReducer';
 import persistStore from 'redux-persist/es/persistStore';
-import conversationReducer, { conversationActions } from './slices/conversationSlice';
-import messageReducer, { messageActions } from './slices/messageSlice';
+import conversationReducer from './slices/conversationSlice';
+import messageReducer from './slices/messageSlice';
 import organizationReducer from './slices/organizationSlice';
-
-
 // Existing slices
 import authReducer from '../../features/auth/authSlice';
 import { authApi } from '../../api/auth/authApi';
@@ -140,29 +138,29 @@ export const store = configureStore({
         ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
       },
     }).concat(authApi.middleware,
-       userApi.middleware,
-        userOrganizationApi.middleware,
-        organizationApi.middleware,
-        subscriptionApi.middleware,
-        teamApi.middleware,
-        userTeamApi.middleware, 
-        invitationApi.middleware,
-        userSettingsApi.middleware,
-        projectApi.middleware,
-        projectMemberApi.middleware,
-        sprintApi.middleware,
-        labelApi.middleware,
-        boardApi.middleware,
-        boardColumnApi.middleware,
-        issueApi.middleware,
-        issueTypeApi.middleware,
-        issueWatcherApi.middleware,
-        commentApi.middleware,
-        attachmentApi.middleware,
-        issueHistoryApi.middleware,
-        issueLabelApi.middleware,
-        workLogApi.middleware,
-        projectApi.middleware,
+      userApi.middleware,
+      userOrganizationApi.middleware,
+      organizationApi.middleware,
+      subscriptionApi.middleware,
+      teamApi.middleware,
+      userTeamApi.middleware, 
+      invitationApi.middleware,
+      userSettingsApi.middleware,
+      projectApi.middleware,
+      projectMemberApi.middleware,
+      sprintApi.middleware,
+      labelApi.middleware,
+      boardApi.middleware,
+      boardColumnApi.middleware,
+      issueApi.middleware,
+      issueTypeApi.middleware,
+      issueWatcherApi.middleware,
+      commentApi.middleware,
+      attachmentApi.middleware,
+      issueHistoryApi.middleware,
+      issueLabelApi.middleware,
+      workLogApi.middleware,
+      projectApi.middleware,
       portfolioApi.middleware,
       milestoneApi.middleware,
       statusReportApi.middleware,
@@ -183,6 +181,8 @@ export const store = configureStore({
       rolePermissionApi.middleware,
       permissionMappingApi.middleware,
       adminUserApi.middleware,
+
+
       ),
 });
 
