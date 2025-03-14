@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { motion, Variants, AnimatePresence } from 'framer-motion';
 
 // Replace with actual images
-import servicesHero from '../../assets/images/projext.png';
-import iconTask from '../../assets/images/task.png';
-import iconProject from '../../assets/images/reports.png';
-import iconReport from '../../assets/images/sprint.png';
+import servicesHero from '../../assets/images/projext.svg';
+import iconTask from '../../assets/images/task.svg';
+import iconProject from '../../assets/images/reports.svg';
+import iconReport from '../../assets/images/sprint.svg';
 
 // Additional dummy icons for features/testimonials
 import iconTeams from '../../assets/images/image1.png';
