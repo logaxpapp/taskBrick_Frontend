@@ -2,10 +2,10 @@
 import { motion } from 'framer-motion'
 
 // Replace these with your actual imports
-import Sprint from '../../assets/images/sprint.png'
-import Project from '../../assets/images/projext.png'
-import Task from '../../assets/images/task.png'
-import Report from '../../assets/images/reports.png'
+import Sprint from '../../assets/images/sprint.svg'
+import Project from '../../assets/images/projext.svg'
+import Task from '../../assets/images/task.svg'
+import Report from '../../assets/images/reports.svg'
 
 
 const FeaturesSection = () => {

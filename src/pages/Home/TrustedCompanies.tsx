@@ -2,11 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 // Import your logos (make sure the paths are correct)
-import flutterWave from '../../assets/images/flutterWave.png';
-import relume from '../../assets/images/relume.png';
-import piggyvest from '../../assets/images/piggyvest.png';
-import google from '../../assets/images/google-pay.png';
-import gatherPlux from '../../assets/images/verve.png';
+import flutterWave from '../../assets/images/flutterWave.svg';
+import relume from '../../assets/images/relume.svg';
+import piggyvest from '../../assets/images/piggyvest.svg';
+import google from '../../assets/images/google-pay.svg';
+import gatherPlux from '../../assets/images/verve.svg';
 
 const logos = [
   { src: flutterWave, alt: 'Flutterwave' },

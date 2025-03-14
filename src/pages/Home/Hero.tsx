@@ -1,7 +1,7 @@
 import React from 'react';
 // example placeholders for images
-import heroBackground from '../../assets/images/designSystem.png';
-import user1 from '../../assets/images/fourImage.png';
+import heroBackground from '../../assets/images/designSystem.svg';
+import user1 from '../../assets/images/fourImage.svg';
 
 
 
