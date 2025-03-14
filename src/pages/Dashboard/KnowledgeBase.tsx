@@ -10,9 +10,9 @@ import ProjectsImage from '../../assets/images/image1.png'; // Example image
 import IssuesManagementImage from '../../assets/images/image2.png';
 import TaskManagementImage from '../../assets/images/image3.png'; // Example image
 import SprintImage from '../../assets/images/image6.png'; // Example image
-import ReportsImage from '../../assets/images/reports.svg'; // Example image
+import ReportsImage from '../../assets/images/reports.png'; // Example image
 import IssueTypes from  '../../assets/images/undraw_online-collaboration_xon8.png';
-import Watcher from  '../../assets/images/task.svg';
+import Watcher from  '../../assets/images/task.png';
 import CommentMangement from  '../../assets/images/image4.png';
 
 interface KbItem {
