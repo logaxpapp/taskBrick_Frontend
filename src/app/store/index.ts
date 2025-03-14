@@ -61,7 +61,7 @@ import { messageApi } from '../../api/message/messageApi.ts';
 import { eventApi } from '../../api/event/eventApi.ts';
 import { communityApi } from '../../api/community/communityApi.ts';
 import { metricsApi } from '../../api/metrics/metricsApi.ts';
-import { logsApi } from '../../api/logs/logsApi.ts';
+import { logsApi } from '../../api/metrics/logsApi.ts';
 import { rolePermissionApi } from '../../api/rolePermission/rolePermissionApi.ts';
 import { permissionMappingApi } from '../../api/rolePermission/permissionMappingApi.tsx';
 import { adminUserApi } from '../../api/admin/adminUserApi.ts';
